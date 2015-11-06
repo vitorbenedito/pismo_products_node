@@ -33,3 +33,7 @@ $ mongod --dbpath ~/dev/mongo/
 $ cd ..<br>
 $ mongoimport --db products --collection products --drop --file products.json 
 $ node app.js<br>
+
+Heroku deploy crud
+--------------------------------------------------------------
+https://productscrud.herokuapp.com
