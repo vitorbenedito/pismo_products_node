@@ -10,7 +10,10 @@ var products = require('./routes/products');
 var app_root = __dirname;
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/products', function(err) {
+
+var mongoUri = process.env.MONGOLAB_URI || 'mongodb://localhost/products';
+
+mongoose.connect(mongoUri, function(err) {
     if(err) {
         console.log('connection error', err);
     } else {
