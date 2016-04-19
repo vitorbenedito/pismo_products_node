@@ -8,14 +8,3 @@ global:
   default_region: sa-east-1
   profile: eb-cli
   sc: git
-commands:
-  get_sudo:
-    command: echo Defaults:root \!requiretty >> /etc/sudoers 
-  npm_install:
-    command: sudo yum -y --enablerepo=epel install nodejs npm
-  npm_install_bower:
-    command: sudo npm install -g bower
-container_commands:
-  bower_install:
-    command: sudo bower install --allow-root
-    cwd: /var/app/current/public
