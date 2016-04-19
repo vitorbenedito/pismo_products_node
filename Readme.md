@@ -25,7 +25,7 @@ $ sudo npm install -g bower
 Start the app:
 --------------------------------------------------------------
 
-$ cd /pismo_products_node/<br>
+$ cd /products_node/<br>
 $ npm install<br>
 $ cd /public<br>
 $ bower install<br>
