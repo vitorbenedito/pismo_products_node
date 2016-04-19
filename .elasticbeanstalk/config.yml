@@ -1,0 +1,21 @@
+branch-defaults:
+  master:
+    environment: Default-Environment
+global:
+  application_name: My First Elastic Beanstalk Application
+  default_ec2_keyname: null
+  default_platform: 64bit Amazon Linux 2016.03 v2.1.0 running Node.js
+  default_region: sa-east-1
+  profile: eb-cli
+  sc: git
+commands:
+  get_sudo:
+    command: echo Defaults:root \!requiretty >> /etc/sudoers 
+  npm_install:
+    command: sudo yum -y --enablerepo=epel install nodejs npm
+  npm_install_bower:
+    command: sudo npm install -g bower
+container_commands:
+  bower_install:
+    command: sudo bower install --allow-root
+    cwd: /home/ec2-user/redis-2.8.4
