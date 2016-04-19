@@ -8,3 +8,4 @@ global:
   default_region: sa-east-1
   profile: eb-cli
   sc: git
+  
