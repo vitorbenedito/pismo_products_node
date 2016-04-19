@@ -32,8 +32,8 @@ $ bower install<br>
 $ mongod --dbpath ~/dev/mongo/
 $ cd ..<br>
 $ mongoimport --db products --collection products --drop --file products.json 
-$ node app.js<br>
+$ npm start <br>
 
 Heroku deploy crud
 --------------------------------------------------------------
-https://productscrud.herokuapp.com
+https://products-node.herokuapp.com/#/products
