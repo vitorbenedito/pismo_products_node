@@ -23,6 +23,11 @@ mongoose.connect(mongoUri, function(err) {
 
 var app = express();
 
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'html');
+
+app.use(favicon(__dirname + '/public/favicon.ico'));
+
 app.use('/', express.static(app_root + '/public'));
 
 app.use(logger('dev'));
