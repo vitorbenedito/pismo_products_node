@@ -18,4 +18,4 @@ commands:
 container_commands:
   bower_install:
     command: sudo bower install --allow-root
-    cwd: /home/ec2-user/redis-2.8.4
+    cwd: /var/app/current/public
