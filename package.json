@@ -17,7 +17,6 @@
     "node": "4.2.1"
   },
   "scripts": {
-    "start":"node /var/app/current/app.js",
-    "postinstall": "cd /var/app/current/public && ../node_modules/bower/bin/bower install ../public/bower.json -F --allow-root"
+    "start":"node /var/app/current/app.js"
   }
 }
