@@ -1,11 +1,11 @@
 branch-defaults:
   master:
-    environment: Default-Environment
+    environment: products-node-dev
+    group_suffix: null
 global:
-  application_name: My First Elastic Beanstalk Application
-  default_ec2_keyname: null
-  default_platform: 64bit Amazon Linux 2016.03 v2.1.0 running Node.js
+  application_name: products-node-dev
+  default_ec2_keyname: magoo-note
+  default_platform: Node.js
   default_region: sa-east-1
   profile: eb-cli
   sc: git
-  
