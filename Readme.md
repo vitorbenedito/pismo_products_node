@@ -3,6 +3,8 @@ NodeJS Crud
 
 Simple Crud in NodeJS + AngularJS + MongoDB
 
+Simple crud with deploy on Amazon Elasticbeanstalk and Heroku
+
 
 Install latest nodejs
 -------------------------------------------------------------
@@ -37,3 +39,7 @@ $ npm start <br>
 Heroku deploy crud
 --------------------------------------------------------------
 https://products-node.herokuapp.com/#/products
+
+Amazon deploy crud
+--------------------------------------------------------------
+http://products.sa-east-1.elasticbeanstalk.com/#/products
